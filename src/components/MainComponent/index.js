@@ -1,10 +1,9 @@
 import React from 'react'
+import MainBanner from './MainBanner'
 
 const MainComponent = () => {
     return (
-        <div>
-            ad
-        </div>
+        <MainBanner />
     )
 }
 

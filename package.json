@@ -9,10 +9,13 @@
     "bootstrap": "^4.5.2",
     "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",
+    "jquery": "^3.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "react-slick": "^0.27.8",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "start": "cross-env NODE_PATH=src react-scripts start",
