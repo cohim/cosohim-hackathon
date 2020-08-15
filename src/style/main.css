@@ -12,3 +12,47 @@
 .slick-next{
 margin-right: 30px;
 }
+
+/* 검색 */
+input:-ms-input-placeholder {color: black;}
+input::-webkit-input-placeholder{color:black;}
+input::-moz-placeholder{color:black;}
+section{
+  margin:100px;
+  text-align: center;
+}
+.searchbutton{
+  border:1px solid #000;
+  display:inline-block;
+  position:relative;
+}
+.search{
+  text-align: center;
+  width:500px;
+  height:100px;
+}
+.btn{
+  position: absolute;
+  padding:0;
+  background-color : transparent;
+  border-color:transparent;
+  margin-left: -52px;
+    }
+#btni{
+  width:48px;
+  height:48px;
+    }
+#data{
+  display: none;
+}
+#bmag{
+  position:static;
+  display:none;
+  float:right;
+  padding:0;
+  margin-left:20px;
+}
+.mag{
+  width:45px;
+  height:45px;
+}
