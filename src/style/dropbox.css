@@ -1,15 +1,26 @@
 /*  dropdowninput*/
+
+.searchbtn{
+    display: inline;
+}
 .dropbar .btn:not(:disabled):not(.disabled){
     width:100%;
     height:50px;
     margin-top: 10px;
     font-size : 2em;
+    position: absolute;
 }
 .dropdown-toggle{
     white-space: pre-wrap;
 }
+.search_mag .mag{
+    width:50px;
+    height:50px;
+    background: transparent;
+}
 
-.mag{
-    width:15px;
-    height:15px;
+.search_mag{
+    display:none;
+    float: right;
+    position:static;
 }
