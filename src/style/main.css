@@ -13,3 +13,7 @@
 .slick-next{
 margin-right: 30px;
 }
+
+.products_container{
+    border:5px solid red;
+}
