@@ -41,13 +41,15 @@ export default class MainBanner extends Component{
       return (
         <>
           <Slider {...settings}>
-		    <div className="slide_content">
-                <img src={mini1} alt="slide_img" width="100%" height="100%" />
+            <div className="slide_content">
+                <img src={mini1} alt="slide_img" width="100%" height="100%" />  
             </div>
-		    <div className="slide_content">
-                <img src={mini2} alt="slide_img" width="100%" height="100%" /></div>
-		    <div className="slide_content">
-                <img src={mini3} alt="slide_img" width="100%" height="100%" /></div>
+            <div className="slide_content">
+              <img src={mini2} alt="slide_img" width="100%" height="100%" />
+            </div>
+            <div className="slide_content">
+              <img src={mini3} alt="slide_img" width="100%" height="100%" />
+            </div>
           </Slider>
         </>
       );
