@@ -8,6 +8,7 @@
 @import "./notice.css";
 @import "./chatbot.css";
 @import "./qna.css";
+@import "./foundation.css";
 
 *{
     margin:0;
