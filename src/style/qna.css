@@ -27,20 +27,39 @@ button.btn.btn-secondary{
     border-radius: 10px;
     margin-top: -8px;
 }
-
+#root > div > div.container > div:nth-child(2) > div > div > aside > div > button > a{
+    color: white;
+}
 /* .qna_button Link{
     color:white;
 } */
 
-.qnaform section{
-    text-align:center;
+.qnaform {
+    font-weight:bold;
+    font-size:2em;
 }
-.qnaform footer{
-    margin-top:50px;
+.qnaform header{
     text-align:center;
 }
 .qnaform h4{
     font-weight: bold;
 }
 
+#root > div > div.container > div:nth-child(2) > div > div > form > div:nth-child(1) > label{
+    margin-bottom: 20px;
+}
+#root > div > div.container > div:nth-child(2) > div > div > form > div:nth-child(3) > label{
+    margin-bottom: 20px;
+}
+#root > div > div.container > div:nth-child(2) > div > div > div > input:nth-child(1){
+    background-color:black;
+    border:black;
+}
+#root > div > div.container > div:nth-child(2) > div > div > div > input:nth-child(2){
+    background-color:black;
+    border:black;
+}
 
+#root > div > div.container > div:nth-child(2) > div > div > div{
+    text-align: center;
+}
