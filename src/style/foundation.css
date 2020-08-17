@@ -1,0 +1,26 @@
+/* foundation css */
+
+.foundation_article_name{
+    background-color: orange;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    height: 90px;
+    line-height: 3em;
+}
+.ceo_article_name{
+    background-color: orange;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    height: 90px;
+    line-height: 3em;
+}
+
+.ceo1_png{
+    width: 95%;
+}
+
+.ceo2_png{
+    width: 95%;
+}
