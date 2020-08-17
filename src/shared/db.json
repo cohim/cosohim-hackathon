@@ -1,0 +1,104 @@
+ [
+    {
+        "idx": 1,
+        "productName": "골목상권 해드림 특별보증",
+        "guarantee": "보증",
+        "liog": "3 천만원 이내",
+        "termgrt": "10 년 이내",
+        "seat": "제주",
+        "date": "제주신용보증재단",
+        "interestRate": "연 0.8 % (고정)"
+    },
+    {
+        "idx": 2,
+        "productName": "장애인기업 특례보증",
+        "guarantee": "보증",
+        "liog": "1 억원 이내",
+        "termgrt": "7 년 이내",
+        "seat": "제주",
+        "date": "제주신용보증재단",
+        "interestRate": "연 0.7 % 이내"
+    },
+    {
+        "idx": 3,
+        "productName": "사회적기업 전용 특별보증",
+        "guarantee": "보증",
+        "liog": "4 억원 이내",
+        "termgrt": "5 년 이내",
+        "seat": "제주",
+        "date": "제주신용보증재단",
+        "interestRate": "연 0.5 %"
+    },
+    {
+        "idx": 4,
+        "productName": "중소기업경영안정자금",
+        "guarantee": "보증",
+        "liog": "8 억원 이내",
+        "termgrt": "2 년",
+        "seat": "제주",
+        "date": "제주신용보증재단",
+        "interestRate": "연 0.5 % ~2 %"
+    },
+    {
+        "idx": 5,
+        "productName": "햇살론 보증",
+        "guarantee": "보증",
+        "liog": "3 천만원 이내",
+        "termgrt": "5 년(분할상환)",
+        "seat": "제주",
+        "date": "제주신용보증재단",
+        "interestRate": "연 1 % 이내"
+    },
+    {
+        "idx": 6,
+        "productName": "소상공인 자영업자 특별금융지원",
+        "guarantee": "보증",
+        "liog": "3 천만원 이내",
+        "termgrt": "1 년 이내",
+        "seat": "경기",
+        "date": "경기신용보증재단",
+        "interestRate": "연 0.6 % 고정"
+    },
+
+    {
+        "idx": 7,
+        "productName": "소상공인 초저금리 특별대출",
+        "guarantee": "보증",
+        "liog": "3 천만원 이내",
+        "termgrt": "1 년 이내",
+        "seat": "전국",
+        "date": "IBK기업은행",
+        "interestRate": "연 0.6 %"
+    }, 
+    {
+        "idx": 8,
+        "productName": "일반운전자금",
+        "guarantee": "보증",
+        "liog": "1 억원 이내",
+        "termgrt": "1 년 이내",
+        "seat": "전국",
+        "date": "IBK기업은행",
+        "interestRate": "연 0.5 %"
+    }, 
+    {
+        "idx": 9,
+        "productName": "예비창업자 사전보증",
+        "guarantee": "보증",
+        "liog": "1 억원 이상",
+        "termgrt": "5 년 이내",
+        "seat": "전국",
+        "date": "기술보증기금",
+        "interestRate": "0.7 % p 감면"
+    }, 
+    {
+        "idx": 10,
+        "productName": "일반보증",
+        "guarantee": "보증",
+        "liog": "8 억원 이내",
+        "termgrt": "5 년 이내",
+        "seat": "대전",
+        "date": "대전신용보증재단",
+        "interestRate": "연 0.5 % ~2 %"
+    }
+
+]
