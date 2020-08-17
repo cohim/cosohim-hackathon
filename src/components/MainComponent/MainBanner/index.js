@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
 import Slider from 'react-slick';
 
-import mini1 from "../../../assets/images/mini.jpg"
-import mini2 from "../../../assets/images/mini2.jpg"
-import mini3 from "../../../assets/images/mini3.jpeg"
+import mini1 from "../../../assets/images/banner3.png"
+import mini2 from "../../../assets/images/banner2.png"
+import mini3 from "../../../assets/images/banner1.png"
 
 export default class MainBanner extends Component{
     render() {
@@ -41,13 +41,15 @@ export default class MainBanner extends Component{
       return (
         <>
           <Slider {...settings}>
-		    <div className="slide_content">
-                <img src={mini1} alt="slide_img" width="100%" height="100%" />
+            <div className="slide_content">
+                <img src={mini1} alt="slide_img" width="100%" height="100%" />  
             </div>
-		    <div className="slide_content">
-                <img src={mini2} alt="slide_img" width="100%" height="100%" /></div>
-		    <div className="slide_content">
-                <img src={mini3} alt="slide_img" width="100%" height="100%" /></div>
+            <div className="slide_content">
+              <img src={mini2} alt="slide_img" width="100%" height="100%" />
+            </div>
+            <div className="slide_content">
+              <img src={mini3} alt="slide_img" width="100%" height="100%" />
+            </div>
           </Slider>
         </>
       );

@@ -1,4 +1,24 @@
 /* 상품 조회 리스트 */
-.products_container{    /*div class name을 products_container로 설정했음, ProductsComponent폴더의 index.js에서*/
-border: 1px solid red;
+
+ .products_container,h2 {     
+    /*div class name을 products_container로 설정했음, ProductsComponent폴더의 index.js에서*/
+    text-align: center;  
+    border:  black;
+    margin: 0;
+    padding: 3px;
+    display: grid;
+}  
+
+.products_table {
+    align-content: center;
+    border: 1.5px solid black;
+    border-collapse: separate;
+    text-align: center;
+    float: left;
+    margin-top: 30px;
+}
+
+th,td {
+    padding:8px;
+    border: 0.5px solid;
 }

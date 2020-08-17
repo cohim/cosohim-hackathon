@@ -3,20 +3,19 @@ import React from 'react'
 const ProductsComponent = () => {
     return (
         <div className="products_container">
-            <h2>상품 조회 페이지</h2>
-            <p>
-            <table border="2">
+            <h2>대출 상품 목록 조회</h2>
+            <table className="products_table">
                 <thead>
                         <tr>
-                            <th>비교검색</th>
-                            <th>순번</th>
-                            <th>정책명</th>
-                            <th>자금유형</th>
-                            <th>보증한도</th>
-                            <th>보증기간</th>
-                            <th>기업소재지</th>
-                            <th>지원기관</th>
-                            <th>이자율</th>
+                            <th> 비교검색 </th>
+                            <th> 순번 </th>
+                            <th> 정책명 </th>
+                            <th> 자금유형 </th>
+                            <th> 보증한도 </th>
+                            <th> 보증기간 </th>
+                            <th> 기업소재지 </th>
+                            <th> 지원기관 </th>
+                            <th> 이자율 </th>
                         </tr>
                         </thead>
                 <tbody>
@@ -169,9 +168,6 @@ const ProductsComponent = () => {
 
                     </tbody>
                 </table>
-            </p>
-
-
         </div>
     )
 }

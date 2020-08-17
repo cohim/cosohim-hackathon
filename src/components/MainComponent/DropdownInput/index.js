@@ -3,12 +3,11 @@ import { Dropdown } from 'react-bootstrap'
 import mag from "../../../assets/images/mag.png"
 import Button from 'react-bootstrap/Button'
 
-
 const DropdownInput = () => {
     return (
         <div class = "searchbtn">
             <div className="dropbar">
-                <Dropdown>
+                <Dropdown onclik= "searchbtn()">
                     <Dropdown.Toggle variant="success" id="dropdown-basic">
                          개인별 맞춤 상품 검색
                     </Dropdown.Toggle>
@@ -22,7 +21,7 @@ const DropdownInput = () => {
             <div className= "search_mag">
                 <Button id = "magbtn" variant="link">
                 <img src={mag} className = 'mag' alt="mag_img"/>
-                </Button>{' '}
+                </Button>
             </div>
         </div>
     )
