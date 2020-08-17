@@ -1,26 +1,27 @@
 import React from 'react'
 import { Dropdown } from 'react-bootstrap'
-import mag from "../../../assets/images/mag.png"
+import mag from "../../../assets/images/search.png"
 import Button from 'react-bootstrap/Button'
+import RecommendComponent from '../../RecommendComponent'
 
 const DropdownInput = () => {
     return (
-        <div class = "searchbtn">
+        <div className= "searchbtn">
             <div className="dropbar">
-                <Dropdown onclik= "searchbtn()">
+                <Dropdown>
                     <Dropdown.Toggle variant="success" id="dropdown-basic">
                          개인별 맞춤 상품 검색
                     </Dropdown.Toggle>
-                <Dropdown.Menu id ="dropdown_data">
-                    {/* <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item> */}
+                <div class = "container">
+                <Dropdown.Menu id ="dropdown_data" className ="item">
+                    <RecommendComponent/>
                 </Dropdown.Menu>
+                </div>
                 </Dropdown>
             </div>
             <div className= "search_mag">
                 <Button id = "magbtn" variant="link">
-                <img src={mag} className = 'mag' alt="mag_img"/>
+                    <img src={mag} className = 'mag' alt="mag_img" width="100%" height="100%"/>
                 </Button>
             </div>
         </div>
