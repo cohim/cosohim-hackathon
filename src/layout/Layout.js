@@ -8,8 +8,8 @@ const Layout = ({children}) => {
     return (
         <div className="layout">
             <Header />
-                <MainBanner />
                 <Container>
+                    <MainBanner />
                     {children}
                 </Container>
             <Footer />

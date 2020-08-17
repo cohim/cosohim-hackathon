@@ -1,38 +1,29 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import Table from '../Items/Table';
+import TableData from '../Items/Table/TableData';
 
 const NewsComponent = () => {
     return (
             <div className="notice">
-            <seaction className="seaction">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>번호</th>
-                            <th>보도자료</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th className="t_num">1</th>
-                            <td><a href="">신용보증제한기업소개</a></td>
-                        </tr>
-                        <tr>
-                            <th >2</th>
-                            <td><a href="">신용보증제한기업</a></td>
-                        </tr>
-                        <tr>
-                            <th>3</th>
-                            <td><a href="">신용보증제한기업</a></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </seaction>
-            <div className = "aside">
+                <aside className = "aside">
                     <ul>
-                        <li><a href=""><p>공지사항</p></a></li>
-                        <li><a href=""><p>보도자료</p></a></li>
+                        <li><h4>보도자료</h4></li>
+                        <li><Link to="/notice"><p>공지사항</p></Link></li>
+                        <li><Link to ="/news"><p>보도자료</p></Link></li>
                     </ul>
-            </div>
+                </aside>
+            <seaction className="seaction">
+            <Table tableHeaderName="보도자료">
+                    <TableData number="1" noticeName="2020년 신용보증제도 이슈" noticeLink="#" />
+                    <TableData number="2" noticeName="2020년 신용보증제도 이슈" noticeLink="#" />
+                    <TableData number="3" noticeName="2020년 신용보증제도 이슈" noticeLink="#" />
+                    <TableData number="4" noticeName="2020년 신용보증제도 이슈" noticeLink="#" />
+                    <TableData number="5" noticeName="2020년 신용보증제도 이슈" noticeLink="#" />
+                    <TableData number="6" noticeName="2020년 신용보증제도 이슈" noticeLink="#" />
+                    <TableData number="7" noticeName="2020년 신용보증제도 이슈" noticeLink="#" />
+                </Table>
+            </seaction>
         </div>
     )
 }

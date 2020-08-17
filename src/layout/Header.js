@@ -3,8 +3,8 @@ import { Navbar, Nav, NavDropdown, Form} from 'react-bootstrap'
 
 const Header = () => {
     return (
-        <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="#home" img src="" alt="코힘">로고</Navbar.Brand>
+        <Navbar bg="light" expand="lg" style={{margin:0}}>
+            <Navbar.Brand href="#home" img src="/2019/lib/image/img-gov-logo.png" alt="코힘">로고</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">

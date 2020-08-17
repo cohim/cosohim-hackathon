@@ -4,8 +4,13 @@
 @import "./main.css";
 @import "./productsList.css";
 @import "./dropbox.css";
+@import "./Recommend.css";
 @import "./notice.css";
+<<<<<<< HEAD
 @import "./chatbot.css";
+=======
+@import "./qna.css";
+>>>>>>> 5440699635162f2194bd22fde0400e2fa831dda1
 
 *{
     margin:0;
