@@ -20,3 +20,7 @@ margin-right: 30px;
 .products_container{
     border:5px solid red;
 }
+/* dropdown */
+.dropbar .container .item{
+    flex-grow:1;
+}

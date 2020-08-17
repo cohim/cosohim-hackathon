@@ -1,10 +1,12 @@
 import React from 'react'
-import { InputGroup, DropdownButton, Dropdown, FormControl } from 'react-bootstrap'
+import { InputGroup, DropdownButton, Dropdown } from 'react-bootstrap'
 
 const RecommendComponent = () => {
     return (
       <div className="RecommendComponent_container">
 <table className="recommendtable">
+    <thead></thead>
+    <tbody>
       <tr>
         <td>
           <InputGroup>
@@ -113,7 +115,8 @@ const RecommendComponent = () => {
                   </InputGroup.Prepend>
                   <span>보험</span>
               </InputGroup>
-      </td></tr>
+      </td></tr></tbody>
+      <tfoot></tfoot>
   </table></div>
  
 )
