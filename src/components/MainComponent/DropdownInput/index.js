@@ -9,10 +9,10 @@ const DropdownInput = () => {
         <div className= "searchbtn">
             <div className="dropbar">
                 <Dropdown>
-                    <Dropdown.Toggle variant="success" id="dropdown-basic">
+                    <Dropdown.Toggle variant="success" id="dropdown-basic" style={{background:"#bed560", border:"1px solid #bed560"}}>
                          개인별 맞춤 상품 검색
                     </Dropdown.Toggle>
-                <div class = "container">
+                <div className = "container">
                 <Dropdown.Menu id ="dropdown_data" className ="item">
                     <RecommendComponent/>
                 </Dropdown.Menu>
