@@ -8,7 +8,7 @@ import Products from "./pages/Products";
 import Notice from "./pages/Notice";
 import Qna from "./pages/Qna";
 import Process from "./pages/Process";
-import Recommend from './pages/Recommend';
+// import Recommend from './pages/Recommend';
 import News from './pages/News';
 import Chat from "./pages/ChatBot"
 import Qnaform from "./pages/Qnaform"
@@ -21,7 +21,7 @@ const Routes = () => {
               <Route path="/foundation" component={Foundation}/>
               <Route path="/productsList" component={Products}/>    
               <Route path="/process" component={Process}/>
-              <Route path="/recommend" component={Recommend}/>
+              {/* <Route path="/recommend" component={Recommend}/> */}
               <Route path="/notice" component={Notice}/>
               <Route path="/qna" component={Qna}/>
               <Route path="/news" component={News}/>

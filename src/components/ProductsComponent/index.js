@@ -53,7 +53,16 @@ const ProductsComponent = () => {
                         date="제주신용보증재단"
                         interestRate="연 0.8%" />
                         <ListItems
-                        idx="1"
+                        idx="2"
+                        productName="장애인기업 특례보증"
+                        guarantee="보증"
+                        liog="1djr원 이내"
+                        termgrt="10년 이내"
+                        seat="제주"
+                        date="제주신용보증재단"
+                        interestRate="연 0.8%" />
+                        <ListItems
+                        idx="3"
                         productName="골목상권 해드림 특별보증"
                         guarantee="보증"
                         liog="3천만원 이내"
@@ -62,7 +71,7 @@ const ProductsComponent = () => {
                         date="제주신용보증재단"
                         interestRate="연 0.8%" />
                         <ListItems
-                        idx="1"
+                        idx="4"
                         productName="골목상권 해드림 특별보증"
                         guarantee="보증"
                         liog="3천만원 이내"
@@ -71,7 +80,7 @@ const ProductsComponent = () => {
                         date="제주신용보증재단"
                         interestRate="연 0.8%" />
                         <ListItems
-                        idx="1"
+                        idx="5"
                         productName="골목상권 해드림 특별보증"
                         guarantee="보증"
                         liog="3천만원 이내"
@@ -80,7 +89,7 @@ const ProductsComponent = () => {
                         date="제주신용보증재단"
                         interestRate="연 0.8%" />
                         <ListItems
-                        idx="1"
+                        idx="6"
                         productName="골목상권 해드림 특별보증"
                         guarantee="보증"
                         liog="3천만원 이내"
@@ -89,7 +98,7 @@ const ProductsComponent = () => {
                         date="제주신용보증재단"
                         interestRate="연 0.8%" />
                         <ListItems
-                        idx="1"
+                        idx="7"
                         productName="골목상권 해드림 특별보증"
                         guarantee="보증"
                         liog="3천만원 이내"
@@ -98,7 +107,25 @@ const ProductsComponent = () => {
                         date="제주신용보증재단"
                         interestRate="연 0.8%" />
                         <ListItems
-                        idx="1"
+                        idx="8"
+                        productName="골목상권 해드림 특별보증"
+                        guarantee="보증"
+                        liog="3천만원 이내"
+                        termgrt="10년 이내"
+                        seat="제주"
+                        date="제주신용보증재단"
+                        interestRate="연 0.8%" />
+                        <ListItems
+                        idx="9"
+                        productName="골목상권 해드림 특별보증"
+                        guarantee="보증"
+                        liog="3천만원 이내"
+                        termgrt="10년 이내"
+                        seat="제주"
+                        date="제주신용보증재단"
+                        interestRate="연 0.8%" />
+                        <ListItems
+                        idx="10"
                         productName="골목상권 해드림 특별보증"
                         guarantee="보증"
                         liog="3천만원 이내"
