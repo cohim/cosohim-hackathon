@@ -5,6 +5,7 @@
 @import "./productsList.css";
 @import "./dropbox.css";
 @import "./notice.css";
+@import "./chatbot.css";
 
 *{
     margin:0;
