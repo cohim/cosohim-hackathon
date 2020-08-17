@@ -1,5 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
 @import "./layout.css";
 @import "./main.css";
 @import "./productsList.css";
 @import "./dropbox.css";
+<<<<<<< HEAD
 @import "./notice.css"
+=======
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+html{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+ul,li{
+    list-style:none;
+}
+>>>>>>> dce00bf8924e17bc452d6b8d2af31145e6be15c6
