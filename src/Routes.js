@@ -9,6 +9,7 @@ import Notice from "./pages/Notice";
 import Qna from "./pages/Qna";
 import Process from "./pages/Process";
 import Recommend from './pages/Recommend';
+import News from './pages/News';
 
 const Routes = () => {
     return (
@@ -21,6 +22,7 @@ const Routes = () => {
               <Route path="/recommend" component={Recommend}/>
               <Route path="/notice" component={Notice}/>
               <Route path="/qna" component={Qna}/>
+              <Route path="/news" component={News}/>
             </Layout>
           </Switch>
     )
