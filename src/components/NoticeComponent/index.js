@@ -1,33 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Table from '../Items/Table';
+import TableData from '../Items/Table/TableData';
 
 
 const NoticeComponent = () => {
     return (
         <div className="notice">
             <seaction className="seaction">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>번호</th>
-                            <th>공지사항</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th className="t_num">1</th>
-                            <td><a href="">신용보증제한기업소개</a></td>
-                        </tr>
-                        <tr>
-                            <th >2</th>
-                            <td><a href="">신용보증제한기업</a></td>
-                        </tr>
-                        <tr>
-                            <th>3</th>
-                            <td><a href="">신용보증제한기업</a></td>
-                        </tr>
-                    </tbody>
-                </table>
+                <Table
+                tableHeaderName="공지사항"
+                >
+                    <TableData number="1" noticeName="신용보증제한기업소개" noticeLink="#" />
+                </Table>
             </seaction>
             <aside className = "aside">
                     <ul>
