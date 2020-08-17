@@ -12,7 +12,6 @@ const RecommendComponent = () => {
           <InputGroup>
           <span>기업규모</span>
 
-
               <DropdownButton as={InputGroup.Append} variant="outline-secondary" title="Dropdown" id="input-group-dropdown-2">
                   <Dropdown.Item href="#">전체</Dropdown.Item>
                   <Dropdown.Item href="#">중소기업</Dropdown.Item>
