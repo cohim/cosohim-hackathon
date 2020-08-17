@@ -10,6 +10,7 @@ import Qna from "./pages/Qna";
 import Process from "./pages/Process";
 import Recommend from './pages/Recommend';
 import News from './pages/News';
+import Chat from "./pages/ChatBot"
 
 const Routes = () => {
     return (
@@ -23,6 +24,7 @@ const Routes = () => {
               <Route path="/notice" component={Notice}/>
               <Route path="/qna" component={Qna}/>
               <Route path="/news" component={News}/>
+              <Route path="/chat" component={Chat}/>
             </Layout>
           </Switch>
     )
