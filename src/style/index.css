@@ -4,11 +4,8 @@
 @import "./main.css";
 @import "./productsList.css";
 @import "./dropbox.css";
-<<<<<<< HEAD
-@import "./qna.css";
-=======
 @import "./notice.css";
->>>>>>> 2db2811ba640b2c362ec50a833daee6d28ed0c8c
+@import "./qna.css";
 
 *{
     margin:0;
