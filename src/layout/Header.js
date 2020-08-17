@@ -13,8 +13,8 @@ const Header = () => {
                     
                 <Nav className="mr-auto">
                 <NavDropdown title="소개" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">재단 소개</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">CEO 소개</NavDropdown.Item>
+                    <NavDropdown.Item href="/foundation#foundation">재단 소개</NavDropdown.Item>
+                    <NavDropdown.Item href="/foundation#ceo">CEO 소개</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="#link">보증절차</Nav.Link>
                 <Nav.Link href="#link">상품소개</Nav.Link>
