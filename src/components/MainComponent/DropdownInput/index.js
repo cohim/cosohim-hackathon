@@ -22,7 +22,7 @@ const DropdownInput = () => {
             <div className= "search_mag">
                 <Button id = "magbtn" variant="link">
                 <img src={mag} className = 'mag' alt="mag_img"/>
-                </Button>{' '}
+                </Button>
             </div>
         </div>
     )
