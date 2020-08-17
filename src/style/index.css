@@ -9,6 +9,7 @@
 @import "./chatbot.css";
 @import "./qna.css";
 @import "./foundation.css";
+@import "./process.css";
 
 *{
     margin:0;

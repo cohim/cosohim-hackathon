@@ -3,6 +3,7 @@ import { Dropdown } from 'react-bootstrap'
 import mag from "../../../assets/images/search.png"
 import Button from 'react-bootstrap/Button'
 import RecommendComponent from '../../RecommendComponent'
+import { Link } from 'react-router-dom'
 
 const DropdownInput = () => {
     return (
@@ -20,9 +21,11 @@ const DropdownInput = () => {
                 </Dropdown>
             </div>
             <div className= "search_mag">
-                <Button id = "magbtn" variant="link">
-                    <img src={mag} className = 'mag' alt="mag_img" width="100%" height="100%"/>
-                </Button>
+                <Link to="/productsList">
+                    <Button id = "magbtn" variant="link">
+                        <img src={mag} className = 'mag' alt="mag_img" width="100%" height="100%"/>
+                    </Button>
+                </Link>
             </div>
         </div>
     )
