@@ -8,12 +8,12 @@ const NewsComponent = () => {
             <div className="notice">
                 <aside className = "aside">
                     <ul>
-                        <li><h4>보도자료</h4></li>
-                        <li><Link to="/notice"><p>공지사항</p></Link></li>
-                        <li><Link to ="/news"><p>보도자료</p></Link></li>
+                        <li><h4>보도자료</h4></li><hr/>
+                        <li><Link to="/notice">공지사항</Link></li>
+                        <li><Link to ="/news">보도자료</Link></li>
                     </ul>
                 </aside>
-            <seaction className="seaction">
+            <section className="section">
             <Table tableHeaderName="보도자료">
                     <TableData number="1" noticeName="2020년 신용보증제도 이슈" noticeLink="#" />
                     <TableData number="2" noticeName="2020년 신용보증제도 이슈" noticeLink="#" />
@@ -23,7 +23,7 @@ const NewsComponent = () => {
                     <TableData number="6" noticeName="2020년 신용보증제도 이슈" noticeLink="#" />
                     <TableData number="7" noticeName="2020년 신용보증제도 이슈" noticeLink="#" />
                 </Table>
-            </seaction>
+            </section>
         </div>
     )
 }

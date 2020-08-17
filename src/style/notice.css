@@ -9,19 +9,19 @@ table{
 .t_num{
     border-right:black;
 }
-.seaction table{
+.section table{
     color: black;
     text-align: center;
     width:100%;
     border-collapse: collapse;
 }
 
-.seaction td, th { 
+.section td, th { 
     border-bottom: 1px solid black;
     padding:10px;
 }
-.seaction tbody td a{color:black;}
-.seaction th{background-color: transparent;}
+.section tbody td a{color:black;}
+.section th{background-color: transparent;}
 .t_num{width:50px;}
 
 
@@ -33,7 +33,6 @@ table{
     padding:10px;
     position:sticky;
     display: inline-block;
-    vertical-align: middle;
     
 }
 .aside ul li h4{
@@ -43,4 +42,14 @@ table{
 
 .aside ul li a{
     color:black;
+}
+
+#root > div > div.container > div:nth-child(2) > div > div > section > table > tbody > tr:nth-child(8) > td{
+    display:none;
+}
+#root > div > div.container > div:nth-child(2) > div > div > section > table > tbody > tr:nth-child(8) > th{
+    display:none;
+}
+#root > div > div.container > div:nth-child(2) > div > div > section > table{
+    border:"0"
 }
