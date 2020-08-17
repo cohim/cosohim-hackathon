@@ -5,8 +5,8 @@ axios.defaults.headers.common = {
     Pragma: "no-cache",
   };
 
-const BACKEND_URL = "http://192.168.0.9:8000/makeweb/";
+const BACKEND_URL = "http://192.168.0.9:8000/makeweb";
 
 export const productListApi = axios.create({
-    baseURL: `${BACKEND_URL}/ product`,
+    baseURL: `${BACKEND_URL}/product`,
   });
