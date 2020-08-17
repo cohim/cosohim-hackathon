@@ -9,12 +9,12 @@ const NoticeComponent = () => {
         <div className="notice">
             <aside className = "aside">
                 <ul>
-                    <li><h4>공지사항</h4></li>
-                    <li><Link to='/notice'><p>공지사항</p></Link></li>
-                    <li><Link to="/news"><p>보도자료</p></Link></li>
+                    <li><h4>공지사항</h4></li><hr/>
+                    <li><Link to="/notice">공지사항</Link></li>
+                    <li><Link to ="/news">보도자료</Link></li>
                 </ul>
             </aside>
-            <seaction className="seaction">
+            <section className="section">
                 <Table tableHeaderName="공지사항">
                     <TableData number="1" noticeName="신용보증제한기업소개" noticeLink="#" />
                     <TableData number="2" noticeName="신용보증제한기업소개" noticeLink="#" />
@@ -24,7 +24,7 @@ const NoticeComponent = () => {
                     <TableData number="6" noticeName="신용보증제한기업소개" noticeLink="#" />
                     <TableData number="7" noticeName="신용보증제한기업소개" noticeLink="#" />
                 </Table>
-            </seaction>
+            </section>
         </div>
     )
 }

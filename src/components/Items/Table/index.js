@@ -4,7 +4,7 @@ import TableData from './TableData'
 
 const Table = ({tableHeaderName,number, noticeName,noticeLink,children}) => {
     return (
-        <table>
+        <table border="0">
             <TableHeader tableHeaderName={tableHeaderName}  />
             <tbody>
                 {children}
