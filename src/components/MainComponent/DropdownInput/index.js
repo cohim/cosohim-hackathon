@@ -1,6 +1,6 @@
 import React from 'react'
 import { Dropdown } from 'react-bootstrap'
-import search from "../../../assets/images/search.png"
+import mag from "../../../assets/images/mag.png"
 import Button from 'react-bootstrap/Button'
 
 // function searchbtn(){
@@ -29,9 +29,9 @@ const DropdownInput = () => {
                 </Dropdown>
             </div>
             <div className= "search_mag">
-                <Button id = "search" variant="link">
-                <img src={search} className = 'search' alt="search_img"/>
-                </Button>{' '}
+                <Button id = "magbtn" variant="link">
+                <img src={mag} className = 'mag' alt="mag_img"/>
+                </Button>
             </div>
         </div>
     )
