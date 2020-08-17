@@ -6,6 +6,7 @@
 @import "./dropbox.css";
 @import "./Recommend.css";
 @import "./notice.css";
+@import "./qna.css";
 
 *{
     margin:0;

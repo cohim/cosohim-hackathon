@@ -1,21 +1,17 @@
 import React from 'react'
-import { InputGroup, FormControl } from 'react-bootstrap'
+import ButtonGroup from 'react-bootstrap/ButtonGroup'
+import Button from 'react-bootstrap/Button'
+
+
 
 const ProcessComponent = () => {
     return (
         <div>
-            <InputGroup className="mb-3">
-            <InputGroup.Prepend>
-            <InputGroup.Checkbox aria-label="Checkbox for following text input" />
-            </InputGroup.Prepend>
-            <FormControl aria-label="Text input with checkbox" />
-            </InputGroup>
-            <InputGroup>
-            <InputGroup.Prepend>
-            <InputGroup.Radio aria-label="Radio button for following text input" />
-            </InputGroup.Prepend>
-            <FormControl aria-label="Text input with radio button" />
-            </InputGroup>
+            <ButtonGroup aria-label="Basic example">
+                <Button variant="secondary">Left</Button>
+                <Button variant="secondary">Middle</Button>
+                <Button variant="secondary">Right</Button>
+            </ButtonGroup>
         </div>
     )
 }
