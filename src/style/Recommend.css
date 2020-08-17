@@ -1,4 +1,24 @@
-p 
- {
-    padding-top: 2em;
-  }
+/* .RecommendComponent_container{
+  overflow: hidden;
+} */
+.RecommendComponent_container .top{
+  overflow: hidden;
+}
+.RecommendComponent_container .recommend-1{
+  float: left;
+}
+.RecommendComponent_container .recommend-2{
+  float: right;
+}
+.RecommendComponent_container .recommend-3{
+  display: inline-block;
+}
+.RecommendComponent_container .recommend-4{
+  display: inline-block;
+}
+.RecommendComponent_container .recommend-5{
+  display: inline-block;
+}
+.RecommendComponent_container .recommend-6{
+  display: inline-block;
+}
