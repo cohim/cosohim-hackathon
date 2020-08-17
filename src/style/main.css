@@ -1,4 +1,7 @@
 /* slide */
+.slider_container .df{
+    display: none;
+}
 .slide-item .slide_content{
     height: 500px;
     border: 1px solid black;
