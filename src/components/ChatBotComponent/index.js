@@ -2,9 +2,10 @@ import React from 'react'
 
 const ChatBotComponent = () => {
     return (
-            <div class="chatbot_box">
+        <div class="chatbot_box">
+                <b>챗봇</b>
                 <div className="chatbot_pop">
-                    챗봇
+                    
                     <div Class="message_ballon_client">
                         <p Class="ballon_client">
                             '카테고리'를 보여주세요
