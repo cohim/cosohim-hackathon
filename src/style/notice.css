@@ -1,0 +1,9 @@
+aside{
+    float: left;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl{
+    background:lightgray;
+}
+.aside ul li a{
+    color:black;
+}
