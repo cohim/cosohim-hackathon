@@ -1,2 +1,9 @@
 
 /* header */
+
+.mr-auto, .dropdown-toggle, .nav-link, .collapse,#basic-navbar-nav{
+
+    justify-content: right;
+    float: right;
+    margin-right: 10px;
+}
