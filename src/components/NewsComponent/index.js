@@ -1,16 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
-
-const NoticeComponent = () => {
+const NewsComponent = () => {
     return (
-        <div className="notice">
+            <div className="notice">
             <seaction className="seaction">
                 <table>
                     <thead>
                         <tr>
                             <th>번호</th>
-                            <th>공지사항</th>
+                            <th>보도자료</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -29,15 +27,14 @@ const NoticeComponent = () => {
                     </tbody>
                 </table>
             </seaction>
-            <aside className = "aside">
+            <div className = "aside">
                     <ul>
-                        <li><h4>공지사항</h4></li>
-                        <li><Link to='/notice'><p>공지사항</p></Link></li>
-                        <li><Link to="/news"><p>보도자료</p></Link></li>
+                        <li><a href=""><p>공지사항</p></a></li>
+                        <li><a href=""><p>보도자료</p></a></li>
                     </ul>
-            </aside>
+            </div>
         </div>
     )
 }
 
-export default NoticeComponent
+export default NewsComponent
