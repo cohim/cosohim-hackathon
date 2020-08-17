@@ -8,9 +8,8 @@ const ProcessComponent = () => {
     return (
         <div>
             <ButtonGroup aria-label="Basic example">
-                <Button variant="secondary">Left</Button>
-                <Button variant="secondary">Middle</Button>
-                <Button variant="secondary">Right</Button>
+                <Button variant="secondary">보증절차1</Button>
+                <Button variant="secondary">보증절차2</Button>
             </ButtonGroup>
         </div>
     )
