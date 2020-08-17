@@ -3,16 +3,6 @@ import { Dropdown } from 'react-bootstrap'
 import mag from "../../../assets/images/mag.png"
 import Button from 'react-bootstrap/Button'
 
-// function searchbtn(){
-//     var btn = document.querySelector('.magbtn');
-//     if(onclick===true){
-//         btn.style.display = 'block';
-//     }
-//     else{
-//         btn.style.display = 'none';
-//     }
-// }
-
 const DropdownInput = () => {
     return (
         <div class = "searchbtn">
