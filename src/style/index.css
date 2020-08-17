@@ -4,9 +4,7 @@
 @import "./main.css";
 @import "./productsList.css";
 @import "./dropbox.css";
-<<<<<<< HEAD
-@import "./notice.css"
-=======
+@import "./qna.css";
 
 *{
     margin:0;
@@ -19,4 +17,3 @@ html{
 ul,li{
     list-style:none;
 }
->>>>>>> dce00bf8924e17bc452d6b8d2af31145e6be15c6

@@ -31,10 +31,7 @@ table{
     width:100px;
     padding:10px;
     position:sticky;
-    /* display:inline-flexbox;   aside 옆으로 이동시키기 */
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: 20px;
+    
 }
 .aside ul li h4{
     font-weight:bold;

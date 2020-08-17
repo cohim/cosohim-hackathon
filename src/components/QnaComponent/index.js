@@ -1,9 +1,10 @@
 import React from 'react'
+import qna from '../../assets/images/qna.jpg'
 
 const QnaComponent = () => {
     return (
-        <div>
-            고객센터
+        <div class="qna">
+            <img src={qna} className='qna_img'/>
         </div>
     )
 }
