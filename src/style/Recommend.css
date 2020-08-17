@@ -1,4 +1,50 @@
-p 
- {
-    padding-top: 2em;
-  }
+/* .RecommendComponent_container{
+  overflow: hidden;
+} */
+.RecommendComponent_container .top{
+  overflow: hidden;
+}
+/* .
+
+.recommend-1{
+  
+  float: left;
+}
+.RecommendComponent_container .recommend-2{
+  float: right;
+}
+.RecommendComponent_container .recommend-3{
+  display: inline-block;
+}
+.RecommendComponent_container .recommend-4{
+  display: inline-block;
+}
+.RecommendComponent_container .recommend-5{
+  display: inline-block;
+}
+.RecommendComponent_container .recommend-6{
+  display: inline-block;
+} */
+.RecommendComponent_container table{
+  width:100%;
+  border:red;
+  padding:50px;
+}
+
+.RecommendComponent_container .recommendtable td{
+  border-bottom:1px solid black;
+  padding:10px;
+}
+
+.input-group span{
+  margin-right: 20px;
+}
+
+.RecommendComponent_container td {
+  border:none;
+}
+
+.RecommendComponent_container{
+  font-size: 2em;
+  background-color: #F4F4F4F4;
+}
