@@ -4,8 +4,6 @@ const ProductsComponent = () => {
     return (
         <div className="products_container">
             <h2>상품 조회 페이지</h2>
-          
-
             <table className="products_table">
                 <thead>
                         <tr>
