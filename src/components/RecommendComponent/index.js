@@ -1,13 +1,16 @@
 import React from 'react'
-import { InputGroup, DropdownButton, Dropdown, FormControl } from 'react-bootstrap'
+import { InputGroup, DropdownButton, Dropdown } from 'react-bootstrap'
 
 const RecommendComponent = () => {
     return (
       <div className="RecommendComponent_container">
-<div className="top">
-      <div class="recommend-1">
+<table className="recommendtable">
+    <thead></thead>
+    <tbody>
+      <tr>
+        <td>
           <InputGroup>
-              <FormControl placeholder="기업규모" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+          <span>기업규모</span>
 
 
               <DropdownButton as={InputGroup.Append} variant="outline-secondary" title="Dropdown" id="input-group-dropdown-2">
@@ -23,9 +26,10 @@ const RecommendComponent = () => {
               </DropdownButton>
 
           </InputGroup>
-
+          </td>
+        <td>
           <InputGroup>
-              <FormControl placeholder="기업 소재지" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+          <span>기업 소재지</span>
 
               <DropdownButton as={InputGroup.Append} variant="outline-secondary" title="Dropdown" id="input-group-dropdown-2">
                   <Dropdown.Item href="#">전체</Dropdown.Item>
@@ -51,11 +55,11 @@ const RecommendComponent = () => {
               </DropdownButton>
 
           </InputGroup>
-      </div>
-      <div class="recommend-2">
-
+          </td></tr>
+            <tr>
+              <td>
           <InputGroup>
-              <FormControl placeholder="영업기간" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+          <span>영업기간</span>
 
               <DropdownButton as={InputGroup.Append} variant="outline-secondary" title="Dropdown" id="input-group-dropdown-2">
                   <Dropdown.Item href="#">전체</Dropdown.Item>
@@ -69,9 +73,11 @@ const RecommendComponent = () => {
               </DropdownButton>
 
           </InputGroup>
-
+          </td>
+              <td>
           <InputGroup>
-              <FormControl placeholder="매출액" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+             <span>매출액&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
 
               <DropdownButton as={InputGroup.Append} variant="outline-secondary" title="Dropdown" id="input-group-dropdown-2">
                   <Dropdown.Item href="#">전체</Dropdown.Item>
@@ -87,50 +93,31 @@ const RecommendComponent = () => {
               </DropdownButton>
 
           </InputGroup>
+          </td></tr>
 
-      </div>
-      </div>
-
-      <div>
-
-          <div class="recommend-3">
+          <tr ><td colspan="2">
               <InputGroup className="mb-3">
                   <InputGroup.Prepend>
+                  <span>자금유형</span>
                       <InputGroup.Checkbox aria-label="Checkbox for following text input" />
                   </InputGroup.Prepend>
                   <span>전체</span>
-              </InputGroup>
-          </div>
-
-          <div class="recommend-4">
-              <InputGroup className="mb-3">
                   <InputGroup.Prepend>
                       <InputGroup.Checkbox aria-label="Checkbox for following text input" />
                   </InputGroup.Prepend>
                   <span>융자</span>
-              </InputGroup>
-          </div>
-
-          <div class="recommend-5">
-              <InputGroup className="mb-3">
                   <InputGroup.Prepend>
                       <InputGroup.Checkbox aria-label="Checkbox for following text input" />
                   </InputGroup.Prepend>
                   <span>보증</span>
-              </InputGroup>
-          </div>
-
-          <div class="recommend-6">
-              <InputGroup className="mb-3">
                   <InputGroup.Prepend>
                       <InputGroup.Checkbox aria-label="Checkbox for following text input" />
                   </InputGroup.Prepend>
                   <span>보험</span>
               </InputGroup>
-          </div>
-
-      </div>
-  </div>
+      </td></tr></tbody>
+      <tfoot></tfoot>
+  </table></div>
  
 )
 }

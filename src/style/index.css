@@ -6,6 +6,8 @@
 @import "./dropbox.css";
 @import "./Recommend.css";
 @import "./notice.css";
+@import "./chatbot.css";
+@import "./qna.css";
 
 *{
     margin:0;

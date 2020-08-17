@@ -4,21 +4,39 @@
 .RecommendComponent_container .top{
   overflow: hidden;
 }
-.RecommendComponent_container .recommend-1{
-  float: left;
+.RecommendComponent_container table{
+  width:100%;
+  padding:50px;
 }
-.RecommendComponent_container .recommend-2{
-  float: right;
+
+.RecommendComponent_container .recommendtable td{
+  border-bottom:1px solid black;
+  padding:10px;
 }
-.RecommendComponent_container .recommend-3{
-  display: inline-block;
+.input-group-dropdown-2{
+  width:100%;
 }
-.RecommendComponent_container .recommend-4{
-  display: inline-block;
+
+.input-group span{
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size:2em;
 }
-.RecommendComponent_container .recommend-5{
-  display: inline-block;
+
+.RecommendComponent_container td {
+  border:none;
 }
-.RecommendComponent_container .recommend-6{
-  display: inline-block;
+
+.RecommendComponent_container{
+  font-size: 1em;
+  background-color: #F4F4F4F4;
+}
+
+#input-group-dropdown-2{
+  width:350px;
+}
+
+.dropdown-menu.show{
+  width:350px;
+  text-align:center;
 }

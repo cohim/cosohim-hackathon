@@ -1,0 +1,69 @@
+/* chatbot css */
+
+.chatbot_pop{
+    width: 40%;
+}
+.message_ballon_client {
+    text-align: right;
+    position: relative;
+    margin-left: 72px;
+    /* margin: 25px; */
+    width: 190%;
+    padding: 10px;
+    background: #fadadf;
+    border-radius: 20px;
+}
+.message_ballon_client:after {
+    border-top: 26px solid transparent;
+    border-left: 13px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 17px solid #fadadf;
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 186px;
+   }
+    
+.message_ballon_server {
+    text-align: left;
+    position: relative;
+    margin-right: 50px;
+    width: 198%;
+    padding: 10px;
+    background: #bfd1f3;
+    border-radius: 20px;
+}
+
+.message_ballon_server:after {
+    border-top: 26px solid transparent;
+    border-left: 17px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #bfd1f3;
+    content: "";
+    position: absolute;
+    top: 13px;
+    left: -14px;
+   }
+
+   .Category1, .Category2, .Category3{
+    float: left;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    width: 100px;
+    border: 1px solid;
+}
+
+.category_list{
+    border-top: 1px solid black; 
+    width: 333px;
+    padding: 0; 
+    margin-left: -34px;
+}
+
+.chatbot_box{
+    border: 1px solid black; 
+    width: 30%;
+    min-height: 300px;
+    padding:33px;
+}
