@@ -23,9 +23,9 @@ const Header = () => {
                     <NavDropdown.Item href="#action/3.2">보도자료</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="고객센터" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">자주 하는 질문</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">문의 작성</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">문의 답변</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.1" >자주 하는 질문</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2" >문의 작성</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.3" >문의 답변</NavDropdown.Item>
                 </NavDropdown>
                 </Nav>
                 </Form>
