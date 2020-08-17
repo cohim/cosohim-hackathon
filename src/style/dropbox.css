@@ -11,13 +11,22 @@
 .dropdown_data.dropdown-menu.show{
     width:100%;
 }
-.search{
-    width:50px;
-    height:50px;
+.dropbar{
+    display: inline-block;
+    vertical-align: middle;
+}
+.searchbtn{
+    margin-left: 20px;
+}
+.dropbar{
+    width: calc(100% - 50px);
 }
 .search_mag{
-    width: 100px;
-    height: 100px;
+    width:50px;
+    height:50px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: middle;
 }
 #dropdown_data{
     width:100%;
