@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
 import Slider from 'react-slick';
 
-import mini1 from "../../../assets/images/mini.jpg"
-import mini2 from "../../../assets/images/mini2.jpg"
-import mini3 from "../../../assets/images/mini3.jpeg"
+import mini1 from "../../../assets/images/banner1.png"
+import mini2 from "../../../assets/images/banner2.png"
+import mini3 from "../../../assets/images/mini1.jpeg"
 
 export default class MainBanner extends Component{
     render() {

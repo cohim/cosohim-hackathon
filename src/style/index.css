@@ -4,6 +4,7 @@
 @import "./main.css";
 @import "./productsList.css";
 @import "./dropbox.css";
+@import "./notice.css";
 
 *{
     margin:0;
