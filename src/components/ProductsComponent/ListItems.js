@@ -10,6 +10,7 @@ const ListItems = ({idx,
     interestRate}) => {
     return (
         <tr>
+            <td>체크박스</td>
             <td>{idx}</td>
             <td>{productName}</td> {/* 정책명 */}
             <td>{guarantee}</td>{/* 보증 */}
