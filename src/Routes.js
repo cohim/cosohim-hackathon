@@ -11,6 +11,7 @@ import Process from "./pages/Process";
 import Recommend from './pages/Recommend';
 import News from './pages/News';
 import Chat from "./pages/ChatBot"
+import Qnaform from "./pages/Qnaform"
 
 const Routes = () => {
     return (
@@ -25,6 +26,7 @@ const Routes = () => {
               <Route path="/qna" component={Qna}/>
               <Route path="/news" component={News}/>
               <Route path="/chat" component={Chat}/>
+              <Route path="/qnaform" component={Qnaform}/>
             </Layout>
           </Switch>
     )
