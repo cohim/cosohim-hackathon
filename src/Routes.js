@@ -12,6 +12,7 @@ import Process from "./pages/Process";
 import News from './pages/News';
 import Chat from "./pages/ChatBot"
 import Qnaform from "./pages/Qnaform"
+import Compare from "./pages/Compare"
 
 const Routes = () => {
     return (
@@ -27,6 +28,7 @@ const Routes = () => {
               <Route path="/news" component={News}/>
               <Route path="/chat" component={Chat}/>
               <Route path="/qnaform" component={Qnaform}/>
+              <Route path="/compare" component={Compare}/>
             </Layout>
           </Switch>
     )
