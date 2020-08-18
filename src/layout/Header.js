@@ -1,10 +1,11 @@
 import React from 'react'
 import { Navbar, Nav, NavDropdown, Form} from 'react-bootstrap'
+import logo from "../assets/images/logo.png"
 
 const Header = () => {
     return (
         <Navbar bg="light" expand="lg" style={{margin:0, fontSize:"1.5rem"}}>
-            <Navbar.Brand href="/main" img src="/2019/lib/image/img-gov-logo.png" alt="코힘">로고</Navbar.Brand>
+            <Navbar.Brand href="/main" ><img src = {logo} className="logo" alt ="logo"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
