@@ -1,7 +1,8 @@
 /* foundation css */
 
 .foundation_article_name{
-    background-color: orange;
+    background-color: #bed560 ;
+    color: black;
     font-size: 3em;
     font-weight: bold;
     text-align: center;
@@ -9,7 +10,7 @@
     line-height: 3em;
 }
 .ceo_article_name{
-    background-color: orange;
+    background-color: #bed560 ;
     font-size: 3em;
     font-weight: bold;
     text-align: center;
