@@ -1,5 +1,6 @@
 import React from 'react'
 import jQuery from "jquery";
+// import chatNotice from "../../assets/images/chatbot_notice.jpeg";
 import chatNotice from "../../assets/images/chatbot_notice.jpeg";
 // import { Modal, Button } from 'react-bootstrap';
 
@@ -27,9 +28,9 @@ const index = () => {
                     <p style={{textAlign: "center",lineHeight:" 1.5"}}><span style={{fontSize: "14pt"}}>이용에 불편을 드린 점 양해를 </span></p>
                     <p style={{textAlign: "center",lineHeight:" 1.5"}}><span style={{fontSize: "14pt"}}>부탁드립니다.</span></p>
                     <p style={{textAlign: "center",lineHeight:" 1.5"}}><br /></p> */}
-                    <p>
+                    <div>
                         <img src={chatNotice} alt="img" width="100%" height="100%" />
-                    </p>
+                    </div>
                     <p><br/></p>
                 <div style={{cursor:"pointer",backgroundColor:"#DDDDDD",textAlign: "center",paddingBottom: "10px",paddingTop: "10px"}} onClick={closeApp}>
                     <span className="pop_bt" style={{fontSize: "13pt"}} >
