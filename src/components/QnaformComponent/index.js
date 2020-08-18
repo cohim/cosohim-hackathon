@@ -23,7 +23,7 @@ const QnaformComponent = () => {
             </Form>
             <div className="qnaformbtn">
                 <Button as="input" type="submit" value="Submit" style={{background :"#000000", fontSize: "1.5rem", marginLeft:500}}/>
-                <Button as="input" type="reset" value=" Reset " style={{background :"#000000", fontSize: "1.5rem"}} />
+                <Button as="input" type="reset" value=" Reset " style={{background :"#000000", fontSize: "1.5rem", marginLeft:10}} />
             </div>
         </div>
         )
