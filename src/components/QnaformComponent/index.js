@@ -15,15 +15,15 @@ const QnaformComponent = () => {
                 </Form.Group>
                 <Form.Group controlId="exampleForm.ControlSelect1">
                 </Form.Group>
-                <Form.Group controlId="exampleForm.ControlTextarea1">
+                <Form.Group controlId="exampleForm.ControlTextarea1" className="qnabtn">
                     <Form.Label>문의사항</Form.Label>
                     <Form.Control as="textarea" rows="10" />
                     <br/>
                 </Form.Group>
             </Form>
             <div className="qnaformbtn">
-                <Button as="input" type="submit" value="Submit" />{' '}
-                <Button as="input" type="reset" value="Reset" />
+                <Button as="input" type="submit" value="Submit" />
+                <Button as="input" type="reset" value=" Reset " />
             </div>
         </div>
         )

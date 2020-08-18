@@ -6,7 +6,7 @@
 }
 
 .qna_name{
-    background-color: orange;
+    background-color:#bed560 ;
     font-size: 3em;
     font-weight: bold;
     text-align: center;
@@ -54,12 +54,20 @@ button.btn.btn-secondary{
 #root > div > div.container > div:nth-child(2) > div > div > div > input:nth-child(1){
     background-color:black;
     border:black;
+    font-size:1.5rem;
+    margin-right:10px;
 }
 #root > div > div.container > div:nth-child(2) > div > div > div > input:nth-child(2){
     background-color:black;
     border:black;
+    font-size:1.5rem;
 }
 
 #root > div > div.container > div:nth-child(2) > div > div > div{
     text-align: center;
 }
+
+.qnabtn:hover{
+    color:white;
+}
+
