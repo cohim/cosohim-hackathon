@@ -26,7 +26,7 @@ const ProductsComponent = () => {
     // }, []);
     return (
         <div className="products_container">
-            <h2>대출 상품 목록 조회</h2>
+            <p>대출 상품 목록 조회</p>
         {/* {isLoading && <Spinner animation="border" variant="success" />} */}
             <table className="products_table">
                 <thead>
