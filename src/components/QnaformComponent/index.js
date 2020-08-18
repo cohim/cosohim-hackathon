@@ -22,8 +22,8 @@ const QnaformComponent = () => {
                 </Form.Group>
             </Form>
             <div className="qnaformbtn">
-                <Button as="input" type="submit" value="Submit" />
-                <Button as="input" type="reset" value=" Reset " />
+                <Button as="input" type="submit" value="Submit" style={{background :"#000000", fontSize: "1.5rem", marginLeft:500}}/>
+                <Button as="input" type="reset" value=" Reset " style={{background :"#000000", fontSize: "1.5rem"}} />
             </div>
         </div>
         )
