@@ -10,6 +10,7 @@
 @import "./qna.css";
 @import "./foundation.css";
 @import "./process.css";
+@import "./modal.css";
 
 *{
     margin:0;
