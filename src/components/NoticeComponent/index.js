@@ -11,6 +11,7 @@ const NoticeComponent = () => {
                 <ul>
                     <li><h4>공지사항</h4></li><hr/>
                     <li><Link to="/notice">공지사항</Link></li>
+                    <br/>
                     <li><Link to ="/news">보도자료</Link></li>
                 </ul>
             </aside>

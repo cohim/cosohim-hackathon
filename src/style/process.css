@@ -2,34 +2,10 @@
 
 /* 버튼 크게 만들려고 css만듦  */
 
-#root > div > div.container > div:nth-child(2) > div > div:nth-child(1) > div{
-    padding: 10px;
-    display:flex;
-    height: 100px;
-    justify-content:center;
-    align-items:center;
-    font-size: 25px;
-}
-#root > div > div.container > div:nth-child(2) > div > div.process_article{
-    display: block;
+.ProcessComponent_container{
     text-align: center;
-    justify-content:center;
-    align-items:center;
-    font-size: 25px;
-    font-style: bold;
+    font-size:1.5rem;
 }
-/* 
-#root > div > div.container > div:nth-child(2) > div > div:nth-child(1) > div{
-    font-size: 2em;
-} */
-
-#root > div > div.container > div:nth-child(2) > div > div:nth-child(1) > div > a:nth-child(1){
-    font-size: 1em;
+.btn-group{
+    color: black;
 }
-#root > div > div.container > div:nth-child(2) > div > div:nth-child(1) > div > a:nth-child(2){
-    font-size: 1em;
-}
-#root > div > div.container > div:nth-child(2) > div > div:nth-child(1) > div > a:nth-child(3){
-    font-size: 1em;
-}
-

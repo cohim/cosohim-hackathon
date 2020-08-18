@@ -1,9 +1,11 @@
 .section{
     width: calc(100% - 110px);
     display: inline-block;
+    height:110px;
 }
 table{
-    text-align: center; 
+    text-align: center;
+    margin-bottom:50px;
 }
 
 .t_num{
@@ -24,13 +26,18 @@ table{
 .section th{background-color: transparent;}
 .t_num{width:50px;}
 
+.section thead{
+    background-color: #bed560;
+    font-size:1.5rem;
+}
 
 .aside{
     text-align: center;
-    background-color:lightgray;
+    background-color:#bed560 ;
     width:100px;
     margin-right:10px;
     padding:10px;
+    padding-top:20px;
     position:sticky;
     display: inline-block;
     
