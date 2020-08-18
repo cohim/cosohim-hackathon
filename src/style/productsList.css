@@ -1,6 +1,6 @@
 /* 상품 조회 리스트 */
 
- .products_container,h2 {     
+ .products_container, p {     
     /*div class name을 products_container로 설정했음, ProductsComponent폴더의 index.js에서*/
     text-align: center;  
     border:  black;
@@ -8,17 +8,38 @@
     padding: 3px;
     display: grid;
 }  
+.products_container p{
+    background-color: #bed560 ;
+    font-size: 2em;
+    font-weight: bold;
+    padding:10px;
+}
 
 .products_table {
     align-content: center;
-    border: 1.5px solid black;
-    border-collapse: separate;
+    /* border: 1px solid black; */
+    /* border-collapse: separate; */
     text-align: center;
     float: left;
-    margin-top: 30px;
+    margin-bottom: 50px;;
+    border-left-style: hidden;
+    border-right-style:hidden;
+    border-bottom-style:hidden;
 }
 
-th,td {
+.products_table th,td {
     padding:8px;
     border: 0.5px solid;
 }
+
+/* design */
+.products_table thead tr {
+    background-color: #6b8e23;
+    color: black;
+  }
+  .products_table tbody tr:nth-child(2n) {
+    background-color:lightyellow;
+  }
+  .products_table tbody tr:nth-child(2n+1) {
+    background-color:lightgoldenrodyellow;
+  }

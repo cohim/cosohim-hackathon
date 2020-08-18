@@ -1,9 +1,5 @@
 import React from 'react'
-<<<<<<< HEAD
-import { InputGroup} from 'react-bootstrap'
-=======
 import { InputGroup } from 'react-bootstrap'
->>>>>>> eda3271279097641d8bb104372c90ddb4053847c
 
 const RecommendComponent = () => {
     return (
